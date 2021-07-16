@@ -7,7 +7,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import re
 import nltk
 nltk.download('stopwords')
-#from nltk.corpus import stopwords
+from nltk.corpus import stopwords
 import joblib
 
 def Clean(text):
