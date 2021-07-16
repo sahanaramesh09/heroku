@@ -38,6 +38,7 @@ def classify():
     prediction = Load_Predict(text)
     payload = {
     'prediction': prediction
+    }
     response = jsonify(payload)
     return response
 
