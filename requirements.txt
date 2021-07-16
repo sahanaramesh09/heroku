@@ -1,6 +1,5 @@
 joblib
 Flask 
-joblibk
 json5==0.9.5
 pandas==1.2.4
 stopwords==1.0.0
