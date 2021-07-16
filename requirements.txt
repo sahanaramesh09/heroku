@@ -1,5 +1,4 @@
 joblib
-json
 Flask 
 joblibk
 json5==0.9.5
