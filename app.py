@@ -36,7 +36,9 @@ def classify():
     text=request.form['text']
     text = Clean(text)
     prediction = Load_Predict(text)
-    response = json.dumps(prediction)
+    payload = {
+    'prediction': prediction
+    response = jsonify(payload)
     return response
 
 
